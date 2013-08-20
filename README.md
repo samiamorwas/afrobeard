@@ -26,3 +26,7 @@ Then install the requirements with:
 Then update the database with:
 
 `./db_upgrade.py`
+
+## Run the app
+
+`./run.py`
