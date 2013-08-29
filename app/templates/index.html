@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block content %}
+	{% for post in posts %}
+		<div>{{post.title}}</div>
+		<div>{{post.content}}</div>
+		<div>{{post.author.name}}</div>
+		<div>{{post.timestamp}}</div>
+	{% endfor %}
+{% endblock %}
